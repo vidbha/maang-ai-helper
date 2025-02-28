@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Maang AI Helper",
+  "version": "1.0",
+  "description": "Adds an AI assistant to Maang coding problems.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://maang.in/problems/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://maang.in/problems/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["doubt-icon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
