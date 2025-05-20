@@ -5,8 +5,9 @@ A browser extension that adds an AI-powered assistant to `maang.in` coding probl
 ## Features
 ->Adds an "Ask AI" button to problem pages  
 ->Stores user API key in local storage  
-->Fetches problem statements automatically  
-->Saves chat history per problem  
+->Fetches problem statements automatically by scraping the Dom Structure and its elements.
+->Saves chat history per problem
+->
 
 ## Installation & Usage
 1. **Download this repository**  
@@ -18,6 +19,7 @@ A browser extension that adds an AI-powered assistant to `maang.in` coding probl
 - HTML/CSS
 - Local Storage API
 - Gemini API
-
+## Demo Video
+[Drive link](https://drive.google.com/file/d/1UWiuHH86UrHz5X9O6KHNH-M7W_8jQICI/view?usp=drive_link)
 ---
 🔗 **Live Repo:** [GitHub.com/vidbha/maang-ai-helper](https://github.com/vidbha/maang-ai-helper)
